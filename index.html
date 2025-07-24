@@ -1,30 +1,21 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Ade Nurjaman</title>
-
-
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
-
-	<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
-
-	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap" rel="stylesheet">
-
-	<link rel="stylesheet" type="text/css" href="default.css">
-	<link id="theme-style" rel="stylesheet" type="text/css" href="">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<!-- <link id="theme-style" rel="stylesheet" type="text/css" href=""> -->
+	<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
-<body>
 
+<body>
 	<section class="s1">
 		<div class="main-container">
-			<div class="greeting-wrapper">
-				<h1>Hi, I'm Ade Nurjaman</h1>
-			</div>
-
-
-			<div class="intro-wrapper">
+			<div class="intro-wrapper mt-4">
 				<div class="nav-wrapper">
-
 					<!-- Link around dots-wrapper added after tutorial video -->
 					<a href="index.html">
 						<div class="dots-wrapper">
@@ -33,40 +24,216 @@
 							<div id="dot-3" class="browser-dot"></div>
 						</div>
 					</a>
-					
-
-					<!-- <ul id="navigation">
-						<li><a href="index.html#contact">Contact</a></li>
-
-					</ul> -->
 				</div>
 
 				<div class="left-column">
 					<img id="profile_pic" src="images/ade.jpg">
-					<!-- <h5 style="text-align: center;line-height: 0;">Personalize Theme</h5> -->
-
-					<!-- <div id="theme-options-wrapper">
-						<div data-mode="light" id="light-mode" class="theme-dot"></div>
-						<div data-mode="blue" id="blue-mode" class="theme-dot"></div>
-						<div data-mode="green" id="green-mode" class="theme-dot"></div>
-						<div data-mode="purple" id="purple-mode" class="theme-dot"></div>
-					</div> -->
-
-					<!-- <p id="settings-note">*Theme settings will be saved for<br>your next vist</p> -->
 				</div>
-
+				
 				<div class="right-column">
 
 					<div id="preview-shadow">
 						<div id="preview">
 							<div id="corner-tl" class="corner"></div>
 							<div id="corner-tr" class="corner"></div>
-							<h3>What I Do</h3>
-							<p>Now I enjoy web developer.</p>
+							<h2 class="font-bold">Hello</h2>
+							<h3 class="font-medium">I'm Ade Nurjaman</h3>
+							<p class="text-gray-600 max-w-xl">I have a passion for building websites and apps, my focus
+								is Javascripts</p>
 							<div id="corner-br" class="corner"></div>
 							<div id="corner-bl" class="corner"></div>
 						</div>
+						<div class="flex space-x-6 text-2xl justify-center m-6">
+							<a href="/resume.pdf" target="_blank" class="hover:text-gray-500">
+								CV
+								<i class="fa-solid fa-file-arrow-down"></i>
+							</a>
+							<a href="https://instagram.com/adenjmn" target="_blank" class="text-pink-500 hover:text-pink-700">
+							<i class="fab fa-instagram"></i>
+							</a>
+							<a href="https://www.linkedin.com/in/ade-nurjaman/" target="_blank" class="text-blue-700 hover:text-blue-900">
+							<i class="fab fa-linkedin-in"></i>
+							</a>
+							<a href="https://github.com/adenjmn" target="_blank" class="text-gray-700 hover:text-black">
+							<i class="fab fa-github"></i>
+							</a>
+						</div>
 					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="px-6 md:px-20 py-10">
+
+		<!-- Two Columns -->
+		<div class="grid md:grid-cols-2 gap-8">
+			<!-- about -->
+			<div>
+				<h1 class="text-5xl font-extrabold mb-4">
+					About me<span class="text-[#FC6058]">.</span>
+				</h1>
+				<p class="text-gray-550 max-w-xl mb-12">
+					I'm a skilled IT with 1 years of professional experience. Known for expertise in designing, testing,
+					and
+					optimizing REST APIs. Proficient in system maintenance, problem-solving, communication and
+					interpersonal
+					skills with a proven ability to work independently and as part of a team. Demonstrates strong
+					computing and
+					critical thinking abilities, along with expertise in application database design and management.
+				</p>
+			</div>
+			<!-- timeline -->
+			<div>
+				<h2 class="text-xl font-semibold mb-4">Education<span class="text-[#FC6058] font-extrabold">.</span>
+				</h2>
+
+				<!-- Item 1 -->
+				<div
+					class="bg-gray-100 p-6 rounded-xl shadow-md hover:bg-gray-200 hover:shadow-lg transition duration-300">
+					<p class="text-sm text-gray-800">2018 — 2023</p>
+					<h5 class="text-lg font-bold mt-1 text-gray-600">
+						Informatics Engineering·
+					</h5>
+					<h5 class="text-sm text-gray-550">Universitas Islam Negeri Sunan Gunung Djati</h5>
+				</div>
+			</div>
+			<!-- My Stack -->
+			<div>
+				<h2 class="text-xl font-semibold mb-4">My Expertise<span class="text-[#FEC02F] font-extrabold">.</span>
+				</h2>
+				<div class="bg-gray-100 rounded-xl p-4 flex flex-wrap gap-2">
+					<span class="bg-gray-800 text-white text-base px-3 py-1 rounded-full hover:bg-gray-600">
+						<i class="devicon-javascript-plain colored"></i> JavaScript
+					</span>
+					<span class="bg-gray-800 text-white text-base px-3 py-1 rounded-full hover:bg-gray-600">
+						<i class="devicon-php-plain colored"></i> php
+					</span>
+					<span class="bg-gray-800 text-white text-base px-3 py-1 rounded-full hover:bg-gray-600">
+						<i class="devicon-mysql-original"></i> MySQL
+					</span>
+					<span class="bg-gray-800 text-white text-base px-3 py-1 rounded-full hover:bg-gray-600">
+						<i class="devicon-laravel-original colored"></i> Laravel
+					</span>
+					<span class="bg-gray-800 text-white text-base px-3 py-1 rounded-full hover:bg-gray-600">
+						<i class="devicon-sqlite-plain colored"></i> SQLite</span>
+					<span class="bg-gray-800 text-white text-base px-3 py-1 rounded-full hover:bg-gray-600">
+						<i class="devicon-react-original colored"></i> ReactJS</span>
+					<span class="bg-gray-800 text-white text-base px-3 py-1 rounded-full hover:bg-gray-600">
+						<i class="devicon-codeigniter-plain colored"></i>CodeIgniter</span>
+					<span class="bg-gray-800 text-white text-base px-3 py-1 rounded-full hover:bg-gray-600">
+						<i class="devicon-yii-plain colored"></i> yii</span>
+					<span class="bg-gray-800 text-white text-base px-3 py-1 rounded-full hover:bg-gray-600">
+						<i class="devicon-express-original" ></i> express</span>
+					<span class="bg-gray-800 text-white text-base px-3 py-1 rounded-full hover:bg-gray-600">
+						<i class="devicon-python-plain colored"></i> python</span>
+					<span class="bg-gray-800 text-white text-base px-3 py-1 rounded-full hover:bg-gray-600">
+						<i class="devicon-flask-original"></i> flask</span>
+						
+				</div>
+			</div>
+			<!-- My Experiences -->
+			<div>
+				<h2 class="text-xl font-semibold mb-4">Experiences
+					<span class="text-[#FEC02F] font-extrabold">.</span>
+				</h2>
+				<div class="flex gap-6">
+					<!-- Sidebar Company List -->
+					<div class="flex flex-col border-l-2 border-[#17a2b8] pl-4 min-w-[140px]">
+						<h4 class="text-2xl font-bold text-gray-800">
+							Technical Support
+						</h4>
+						<h4 class="text-md font-bold text-gray-600">UniPin</h4>
+						<p class="text-sm text-black font-semibold mb-2">April 2024 - Present</p>
+
+						<ul class="space-y-2 text-sm text-gray-800">
+							<li class="flex items-start">
+								<span class="text-red-600 mr-2 mt-1">✔️</span>
+								<span>Developed and shipped highly interactive web applications for Apple Music using
+									Ember.js</span>
+							</li>
+							<li class="flex items-start">
+								<span class="text-gray-600 mr-2 mt-1">✔️</span>
+								<span>Built and shipped the Apple Music Extension within Facebook Messenger leveraging
+									third-party
+									and internal APIs</span>
+							</li>
+							<li class="flex items-start">
+								<span class="text-gray-600 mr-2 mt-1">✔️</span>
+								<span>Contributed extensively to MusicKit.js, a JavaScript framework that allows
+									developers to add
+									an Apple Music player to their web apps</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- PROJECTS -->
+	<section class="s1">
+		<div class="main-container p-5">
+			<h2 class="text-5xl text-center font-bold mb-4 mt-4">Some of my past projects</h2>
+			<div>
+				<div class="grid md:grid-cols-3 gap-3 mb-10 mt-10">
+					<!-- Project Card -->
+					<div class="border border-gray-400 rounded-lg p-4 hover:border-black transition">
+						<div class="flex items-start gap-3">	
+							<div>
+								<i class="fa-solid fa-display text-lg mt-1"></i>
+								<a href="post.html" class="text-blue-400 font-semibold ml-2 hover:underline">E-commerce</a>
+								<p class="text-sm mt-1 text-gray-750">
+									A modern e-commerce platform built with Laravel, delivering a fast, secure, and
+									responsive online shopping experience.
+								</p>
+								<div class="flex items-center gap-2 mt-2">
+									<span class="w-3 h-3 rounded-full hover:bg-gray-600 bg-orange-400"></span>
+									<span class="text-sm text-gray-500">Laravel</span>
+									<span class="text-sm text-gray-500 ml-6">January 2025</span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Duplicate this block for more cards -->
+					<div class="border border-gray-400 rounded-lg p-4 hover:border-black transition">
+						<div class="flex items-start gap-3">	
+							<div>
+								<i class="fa-solid fa-display text-lg mt-1"></i>
+								<a href="post.html" class="text-blue-400 font-semibold ml-2 hover:underline">E-commerce</a>
+								<p class="text-sm mt-1 text-gray-750">
+									A modern e-commerce platform built with Laravel, delivering a fast, secure, and
+									responsive online shopping experience.
+								</p>
+								<div class="flex items-center gap-2 mt-2">
+									<span class="w-3 h-3 rounded-full hover:bg-gray-600 bg-orange-400"></span>
+									<span class="text-sm text-gray-500">Laravel</span>
+									<span class="text-sm text-gray-500 ml-6">January 2025</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Duplicate this block for more cards -->
+					<div class="border border-gray-400 rounded-lg p-4 hover:border-black transition">
+						<div class="flex items-start gap-3">	
+							<div>
+								<i class="fa-solid fa-display text-lg mt-1"></i>
+								<a href="post.html" class="text-blue-400 font-semibold ml-2 hover:underline">E-commerce</a>
+								<p class="text-sm mt-1 text-gray-750">
+									A modern e-commerce platform built with Laravel, delivering a fast, secure, and
+									responsive online shopping experience.
+								</p>
+								<div class="flex items-center gap-2 mt-2">
+									<span class="w-3 h-3 rounded-full hover:bg-gray-600 bg-orange-400"></span>
+									<span class="text-sm text-gray-500">Laravel</span>
+									<span class="text-sm text-gray-500 ml-6">January 2025</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- You can add more cards here... -->
+				</div>
+				<div class="text-right">
+					<a href="#" class="text-md text-[#17a2b8] font-semibold hover:underline">View Full Projects</a>
 				</div>
 			</div>
 		</div>
@@ -74,115 +241,8 @@
 
 	<section class="s2">
 		<div class="main-container">
-
-			<div class="about-wrapper">
-				<div class="about-me">
-					<h4>More about me</h4>
-
-					<p>I am currently studying at UIN Sunan Gunung Djati Bandung majoring in informatics engineering.</p>
-
-					<hr>
-
-					<h4>TOP EXPERTISE</h4>
-
-					<p>Fullstack developer with primary focus on PHP + MySql:</p>
-
-					<div id="skills">
-						<ul>
-							<li>PHP</li>
-							<li>Laravel</li>
-							<li>Java</li>
-							<li>NodeJs</li>
-							
-							<!-- <li>React</li> -->
-						</ul>
-
-						<ul>
-							<li>HTML/CSS</li>
-							<li>Javascript</li>
-							<li>MySql</li>
-							<li>Github</li>
-							
-						</ul>
-
-					</div>
-					<p>My Resume <a target="_blank" href="resume.pdf">Download</a></p>
-
-				</div>
-
-				
-				<div class="social-links">
-					<!-- <h4>RECENTLY DONE PROJECT</h3>
-					<p>System Book Manage with spring</p>
-
-					<hr> -->
-					<h3>Certificate</h3>
-					<!-- <ul> -->
-						<li>list of certificates
-							<a target="_blank" href="drive.google.com/drive/folders/1x-U50MT3oXZVawlX-IhC-ta_xCXYa8rh?usp=sharing">view</a>
-						</li>
-					<!-- </ul> -->
-					<hr>
-
-					<h3>Find me on Instagram</h3>
-
-					<a target="_blank" href="https://www.instagram.com/adenjmn">Instagram: @adenjmn</a>
-					<br><br>
-					<!-- <a target="_blank" href="https://twitter.com/adenjmn">Twitter: @adenjmn</a> -->
-				</div>
-			</div>
-
-		</div>
-	</section>
-
-	<!-- <section class="s1">
-		<div class="main-container">
-			<h3 style="text-align: center;">Some of my past projects</h3>
-
-			<div class="post-wrapper">
-
-				<div>
-					<div class="post">
-						<img class="thumbnail" src="images/dash.jpg">
-						<div class="post-preview">
-							<h6 class="post-title">Laboratory Management System</h6>
-							<p class="post-intro">Designed built & mantained a the lab managment system for FOI Laboratories</p>
-							<a href="post.html">Read More</a>
-						</div>
-					</div>
-				</div>
-
-				<div>
-					<div class="post">
-						<img class="thumbnail" src="images/ecom.jpg">
-						<div class="post-preview">
-							<h6 class="post-title">Online Store - CoursePost Title</h6>
-							<p class="post-intro">Online store with paypal payments intergration and guest user shopping</p>
-							<a href="post.html">Read More</a>
-						</div>
-					</div>
-				</div>
-
-				<div>
-					<div class="post">
-						<img class="thumbnail" src="images/membership site.jpg">
-						<div class="post-preview">
-							<h6 class="post-title">Membership Website</h6>
-							<p class="post-intro">Modulized guide for online courses with step by  step intructions</p>
-							<a href="post.html">Read More</a>
-						</div>
-					</div>
-				</div>
-
-			</div>
-		</div>
-	</section>
-
-	<section class="s2">
-		<div class="main-container">
-			<a href=""></a>
 			<h3 style="text-align: center;">Get In Touch</h3>
-
+			<p class="text-center">Please contact me directly at adenjmn@gmail.com or through this form.</p>
 			<form id="contact-form">
 				<a name="contact"></a>
 
@@ -201,8 +261,9 @@
 				<input id="submit-btn" type="submit" value="Send">
 			</form>
 		</div>
-	</section>  -->
+	</section>
 
 	<script type="text/javascript" src="script.js"></script>
 </body>
+
 </html>
